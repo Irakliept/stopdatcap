@@ -1,0 +1,95 @@
+body{
+    background-color: #F8DFD4;  
+    height: 200vh;
+}
+.first{
+    height: 100vh;
+    width: 100%;
+    background-color: #F8DFD4;
+}
+.purple{
+    height:150px;
+    margin-left:20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+}
+.sun{
+    display: flex;
+    justify-content: end;
+}
+.sun2{
+    margin-right: 20px;
+}
+.beach{
+    display: flex;
+
+}
+.sea{
+    width:100%;
+    margin-bottom: 29px;
+}
+
+.profile-img{
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.reziume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h4{
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+.fotka{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
